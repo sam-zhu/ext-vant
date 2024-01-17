@@ -27,12 +27,6 @@
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
   },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@vant"
-    ]
-  },
   "prettier": {
     "singleQuote": true
   },
@@ -41,6 +35,7 @@
     "iOS >= 8"
   ],
   "dependencies": {
+    "dayjs": "^1.11.10",
     "is-plain-object": "^5.0.0"
   },
   "license": "MIT"
