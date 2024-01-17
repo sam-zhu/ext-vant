@@ -12,8 +12,8 @@
     "dev": "vant-cli dev",
     "test": "vant-cli test",
     "lint": "vant-cli lint",
-    "build": "vant-cli build",
-    "release": "vant-cli release",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vant-cli build",
+    "release": "set NODE_OPTIONS=--openssl-legacy-provider && vant-cli release",
     "test:coverage": "open test/coverage/index.html",
     "build-site": "vant-cli build-site && npx gh-pages -d site-dist"
   },
@@ -48,5 +48,8 @@
   "browserslist": [
     "Android >= 4.0",
     "iOS >= 8"
-  ]
+  ],
+  "dependencies": {
+    "is-plain-object": "^5.0.0"
+  }
 }
