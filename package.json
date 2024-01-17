@@ -17,16 +17,7 @@
     "test:coverage": "open test/coverage/index.html",
     "build-site": "vant-cli build-site && npx gh-pages -d site-dist"
   },
-  "author": "",
-  "husky": {
-    "hooks": {
-      "pre-commit": "nano-staged",
-      "commit-msg": "vant-cli commit-lint"
-    }
-  },
-  "nano-staged": {
-    "*.{ts,tsx,js,jsx,vue}": "eslint --fix"
-  },
+  "author": "sam",
   "peerDependencies": {
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
@@ -51,5 +42,6 @@
   ],
   "dependencies": {
     "is-plain-object": "^5.0.0"
-  }
+  },
+  "license": "MIT"
 }
