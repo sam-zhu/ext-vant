@@ -1,6 +1,6 @@
 {
   "name": "ext-vant",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "",
   "main": "lib/ext-vant.js",
   "style": "lib/index.css",
