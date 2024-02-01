@@ -22,7 +22,7 @@
 <script>
   import { formatToDate } from '../utils/dateUtils';
 
-  export default ({
+  export default {
     name: 'ExtDate',
     props: {
       value: {
@@ -76,7 +76,7 @@
         this.showCalendar = false;
       },
     },
-  });
+  };
 </script>
 
 <style lang="" scoped></style>

@@ -23,7 +23,7 @@
   //   { label: 'Pear', value: 'Pear' },
   //   { label: 'Orange', value: 'Orange' },
   // ];
-  export default ({
+  export default {
     name: 'ExtRadioGroup',
     props: {
       value: {
@@ -73,7 +73,7 @@
       },
     },
     methods: {},
-  });
+  };
 </script>
 
 <style lang="" scoped></style>

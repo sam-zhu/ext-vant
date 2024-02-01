@@ -12,7 +12,7 @@
 
 <script>
 
-  export default ({
+  export default {
     name: 'ExtNav',
     props: {
       value: {
@@ -40,7 +40,7 @@
         this.$router.back();
       },
     },
-  });
+  };
 </script>
 
 <style lang="" scoped></style>

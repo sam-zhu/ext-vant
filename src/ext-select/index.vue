@@ -28,7 +28,7 @@
 
 <script>
 
-  export default ({
+  export default {
     name: 'ExtSelect',
     props: {
       value: {
@@ -119,7 +119,7 @@
         this.showPicker = false;
       },
     },
-  });
+  };
 </script>
 
 <style lang="" scoped></style>

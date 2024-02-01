@@ -16,7 +16,7 @@
 
 <script>
 
-  export default ({
+  export default {
     name: 'ExtComment',
     props: {
       value: {
@@ -71,7 +71,7 @@
       },
     },
     methods: {},
-  });
+  };
 </script>
 
 <style lang="" scoped></style>

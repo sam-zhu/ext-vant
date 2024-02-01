@@ -7,7 +7,7 @@
 
 <script>
 
-  export default ({
+  export default {
     name: 'ExtLabel',
     props: {
       title: {
@@ -27,7 +27,7 @@
       },
     },
     methods: {},
-  });
+  };
 </script>
 
 <style scoped></style>

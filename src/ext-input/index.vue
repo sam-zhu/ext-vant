@@ -22,7 +22,7 @@
 
 <script>
 
-  export default ({
+  export default {
     name: 'ExtInput',
     props: {
       value: {
@@ -91,7 +91,7 @@
       },
     },
     methods: {},
-  });
+  };
 </script>
 
 <style lang="" scoped></style>
