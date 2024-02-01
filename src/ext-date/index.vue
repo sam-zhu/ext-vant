@@ -20,10 +20,9 @@
 </template>
 
 <script>
-  import Vue from 'vue';
   import { formatToDate } from '../utils/dateUtils';
 
-  export default Vue.extend({
+  export default ({
     name: 'ExtDate',
     props: {
       value: {

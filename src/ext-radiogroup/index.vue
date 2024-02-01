@@ -17,14 +17,13 @@
 </template>
 
 <script>
-  import Vue from 'vue';
 
   // const options = [
   //   { label: 'Apple', value: 'Apple' },
   //   { label: 'Pear', value: 'Pear' },
   //   { label: 'Orange', value: 'Orange' },
   // ];
-  export default Vue.extend({
+  export default ({
     name: 'ExtRadioGroup',
     props: {
       value: {
