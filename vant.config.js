@@ -32,6 +32,10 @@ module.exports = {
             path: 'demo-button',
             title: 'DemoButton 按钮',
           },
+          {
+            path: 'ext-input',
+            title: '输入框',
+          },
         ],
       },
     ],

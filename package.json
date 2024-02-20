@@ -37,7 +37,8 @@
   ],
   "dependencies": {
     "dayjs": "^1.11.10",
-    "is-plain-object": "^5.0.0"
+    "is-plain-object": "^5.0.0",
+    "vant": "^2.13.2"
   },
   "license": "MIT"
 }
