@@ -21,9 +21,13 @@
 </template>
 
 <script>
+  import { Field } from 'vant';
 
   export default {
     name: 'ExtInput',
+    components:{
+      [Field.name]:Field
+    },
     props: {
       value: {
         type: [String, Number],

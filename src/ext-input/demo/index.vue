@@ -10,7 +10,6 @@
             required="true"
             :rules="[{ required: true, message: '请填写文本内容' }]"
         />
-        22
     </demo-block>
   </demo-section>
 </template>
